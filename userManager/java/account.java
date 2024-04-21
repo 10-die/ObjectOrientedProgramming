@@ -47,7 +47,6 @@ public class account
     {
         this.password = password;
     }
-
     // update, object, printer,
     public void setPrinter() 
     {
