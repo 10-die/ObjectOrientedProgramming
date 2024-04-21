@@ -1,54 +1,58 @@
 public class account 
 {
-    //
-    private String userName = "";
+    // variables, declare, initialise,
+    private String username = "";
     private String password = "";
     private static int numberOfAccounts = 0;
 
-    //
-    account()
+    // construct, object, null,
+    public account()
     {
-        setNumberOfAccounts();
+        setAccountCounter();
     }
 
-    //
-    
-    
-    //
-    public void setUserName(String userName)
+    // construct, object, parameters,
+    public account(String username, String password)
     {
-        this.userName = userName;
+        this.username = username;
+        this.password = password;
+        setAccountCounter();
+    }
+
+    // access, object, parameters,
+    public String getUsername()
+    {
+        return this.username;
+    }
+    public String getPassword()
+    {
+        return this.password;
+    }
+    public int getAccountCounter()
+    {
+        return numberOfAccounts;
+    }
+
+    // update, class, parameter,
+    private static void setAccountCounter()
+    {
+        numberOfAccounts++;
+    }
+    // update, object, parameters,
+    public void setUsername(String username)
+    {
+        this.username = username;
     }
     public void setPassword(String password)
     {
         this.password = password;
     }
 
-    //
-    public String getUserName()
+    // update, object, printer,
+    public void setPrinter() 
     {
-        return this.userName;
-    }
-    public String getPassword()
-    {
-        return this.password;
-    }
-
-    //
-    private static void setNumberOfAccounts()
-    {
-        numberOfAccounts++;
-    }
-
-    //
-    public int getNumberOfAccounts()
-    {
-        return numberOfAccounts;
-    }
-
-    //
-    public String toString()
-    {
-        return "userName = " + getUserName() + "\npassword = " + getPassword() + "\naccountCounter = " + getNumberOfAccounts();
+        System.out.println(getUsername());    
+        System.out.println(getPassword());
+        System.out.println(getAccountCounter());
     }
 }

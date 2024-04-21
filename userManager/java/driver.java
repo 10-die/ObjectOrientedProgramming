@@ -1,9 +1,10 @@
-class driver {
+class driver 
+{
     public static void main(String[] args) 
     {
-        account tSimAccount = new account();
-        tSimAccount.setUserName("10die");
-        tSimAccount.setPassword("ten2000");
-        System.out.println(tSimAccount.toString());
+        account phiDough = new account();
+        phiDough.setUsername("phiD");
+        phiDough.setPassword("Dou5");
+        phiDough.setPrinter();
     }
 }
