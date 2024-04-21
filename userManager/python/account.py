@@ -15,4 +15,9 @@ class account:
         return self.user_name
     def get_password(self):
         return self.password
+    
+    def print_user_name(self):
+        print(self.user_name)
+    def print_password(self):
+        print(self.password)
 pass
