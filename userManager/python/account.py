@@ -11,6 +11,8 @@ class account:
         return self.username
     def get_password(self):
         return self.password
+    def get_account_counter(self):
+        return self.account_counter
     
     # update, class, parameter,
     def set_account_counter(self):
@@ -24,4 +26,5 @@ class account:
     def set_printer(self):
         print(self.get_user_name())
         print(self.get_password())
+        print(self.get_account_counter())
 pass
