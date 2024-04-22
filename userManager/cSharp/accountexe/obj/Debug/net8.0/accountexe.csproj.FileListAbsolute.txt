@@ -1,0 +1,15 @@
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/bin/Debug/net8.0/accountexe
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/bin/Debug/net8.0/accountexe.deps.json
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/bin/Debug/net8.0/accountexe.runtimeconfig.json
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/bin/Debug/net8.0/accountexe.dll
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/bin/Debug/net8.0/accountexe.pdb
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.AssemblyInfoInputs.cache
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.AssemblyInfo.cs
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.csproj.CoreCompileInputs.cache
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.sourcelink.json
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.dll
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/refint/accountexe.dll
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.pdb
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/accountexe.genruntimeconfig.cache
+/workspaces/ObjectOrientedProgramming/userManager/cSharp/accountexe/obj/Debug/net8.0/ref/accountexe.dll
