@@ -5,13 +5,31 @@
 
 class account
 {
+    
     private:
-        std::string userName;
+        // variables, declare, initialise,
+        std::string username;
         std::string password;
+        int accountCounter;
+        void setAccountCounter();
 
     public:
-        account(std::string userName, std::string password);
-        void printAccount();
+
+        // construct, object, null,
+        account();
+
+        // construct, object, parameters,
+        account(std::string username, std::string password);
+
+        // access, object, parameters,
+        std::string getUsername();
+        std::string getPassword();
+        int getAccountCounter();
+    
+        // update, object, parameters,
+        void setUsername(std::string username);
+        void setPassword(std::string password);
+        void setPrinter();
 };
 
 #endif // ACCOUNT_H

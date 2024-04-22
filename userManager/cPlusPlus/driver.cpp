@@ -2,7 +2,9 @@
 
 int main()
 {
-    account tomDough("tomd", "dou5");
-    tomDough.printAccount();
+    account accountTS;
+    accountTS.setUsername("TS");
+    accountTS.setPassword("TSim");
+    accountTS.setPrinter();
     return 0;
 }
