@@ -9,7 +9,7 @@ public class Account
     // construct, object, null,
     public Account()
     {
-        GetAccountCounter();
+        SetAccountCounter();
     }
 
     // construct, object, parameters,
@@ -17,7 +17,7 @@ public class Account
     {
         this.Username = Username;
         this.Password = Password;
-        GetAccountCounter();
+        SetAccountCounter();
     }
 
     // access, object, parameters,
