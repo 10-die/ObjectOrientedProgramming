@@ -47,6 +47,7 @@ void account::setPassword(std::string password)
 {
     this->password = password;
 }
+// update, object, printer,
 void account::setPrinter()
 {
     std::cout << getUsername() << endl;
