@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("accountexe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feebd19fb98b7daf880e29ab91d0f2a5a84568cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+141e6ae492d1bcb34684cd1d5efeb3da9dccab4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("accountexe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("accountexe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

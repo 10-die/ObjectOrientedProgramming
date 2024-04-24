@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "userManager", "userManager", "{035E9F0A-664D-419A-8266-B190AAC43279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cSharp", "cSharp", "{223AD321-22DA-4D1B-8BF6-D680B4730DA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "accountexe", "userManager\cSharp\accountexe\accountexe.csproj", "{3836EA6F-58DB-4B12-AB97-B2C3018A8DA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3836EA6F-58DB-4B12-AB97-B2C3018A8DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3836EA6F-58DB-4B12-AB97-B2C3018A8DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3836EA6F-58DB-4B12-AB97-B2C3018A8DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3836EA6F-58DB-4B12-AB97-B2C3018A8DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{223AD321-22DA-4D1B-8BF6-D680B4730DA1} = {035E9F0A-664D-419A-8266-B190AAC43279}
+		{3836EA6F-58DB-4B12-AB97-B2C3018A8DA4} = {223AD321-22DA-4D1B-8BF6-D680B4730DA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB83D60-83F8-43BB-91CD-A776E2E52F64}
+	EndGlobalSection
+EndGlobal
