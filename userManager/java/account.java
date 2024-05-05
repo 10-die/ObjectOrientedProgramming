@@ -1,8 +1,10 @@
 public class account 
 {
     // variables, declare, initialise,
-    private String username = "";
+    private String email = "";
     private String password = "";
+    private String firstName = "";
+    private String lastName = "";
     private static int numberOfAccounts = 0;
 
     // construct, object, null,
@@ -12,17 +14,17 @@ public class account
     }
 
     // construct, object, parameters,
-    public account(String username, String password)
+    public account(String email, String password)
     {
-        this.username = username;
+        this.email = email;
         this.password = password;
         setAccountCounter();
     }
 
     // access, object, parameters,
-    public String getUsername()
+    public String getEmail()
     {
-        return this.username;
+        return this.email;
     }
     public String getPassword()
     {
@@ -47,9 +49,9 @@ public class account
     {
         this.lastName = lastName;
     }
-    public void setUsername(String username)
+    public void setEmail(String username)
     {
-        this.username = username;
+        this.email = username;
     }
     public void setPassword(String password)
     {
@@ -58,7 +60,7 @@ public class account
     // update, object, printer,
     public void setPrinter() 
     {
-        System.out.println(getUsername());    
+        System.out.println(getEmail());    
         System.out.println(getPassword());
         System.out.println(getAccountCounter());
     }
